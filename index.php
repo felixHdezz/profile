@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="e" href="./">
-                <img src="img/índice.png" alt="brand" width="80">
+                <img src="image/indice.png" alt="brand" width="80">
             </a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -52,7 +52,7 @@
                     <div class="fond_img"></div>
                     <div class="info_profile">
                         <a href="./">
-                            <img class="img_perfil" src="img/perfil.png" />
+                            <img class="img_perfil" src="image/perfil.png" />
                         </a>
                         <h6 class="nom_user">
                                 <a class="nom" href="./">Félix Hernandez Hernandez</a>
@@ -236,60 +236,6 @@
                         </div>
                     </div>
                     <!-- / single skill -->
-                </div>
-            </div>
-        </div>
-        <div class="row profile educ" id="education">
-            <div class="col-sm-12 head_educt head_">
-                <h2><span>EDUCACION</span></h2>
-            </div>
-            <div class="col-sm-12">
-
-            </div>
-        </div>
-        <div class="row profile exper" id="experien">
-            <div class="col-sm-12 head_exper head_">
-                <h2><span>EXPERIENCIA</span></h2>
-            </div>
-            <div class="col-sm-12">
-                <div class="list_interes">
-                    <ul class="ul_ite_interest">
-                        <li class="item_interest">
-                            <h3><span class="fa fa-home"></span></h3>
-                            <h6>Viajar</h6>
-                        </li>
-                        <li class="item_interest">
-                            <h3><span class="fa fa-home"></span></h3>
-                            <h6>Viajar</h6>
-                        </li>
-                        <li class="item_interest">
-                            <h3><span class="fa fa-home"></span></h3>
-                            <h6>Viajar</h6>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row profile port" id="portafolio">
-            <div class="col-sm-12 head_port head_">
-                <h2><span>POSTAFOLIO</span></h2>
-            </div>
-            <div class="col-sm-12">
-                <div class="list_interes">
-                    <ul class="ul_ite_interest">
-                        <li class="item_interest">
-                            <h3><span class="fa fa-home"></span></h3>
-                            <h6>Viajar</h6>
-                        </li>
-                        <li class="item_interest">
-                            <h3><span class="fa fa-home"></span></h3>
-                            <h6>Viajar</h6>
-                        </li>
-                        <li class="item_interest">
-                            <h3><span class="fa fa-home"></span></h3>
-                            <h6>Viajar</h6>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

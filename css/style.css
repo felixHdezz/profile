@@ -1,276 +1,44 @@
-body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.6;
-    color: #292b2c;
-    background-color: #efefef;
-    color: #000;
-    position: relative; 
-}
-
-html {
-    font-size: 14px;
-}
-
-h1,
-h2 span {
-    color: #0487cc;
-}
-
-h2 {
-    text-align: center;
-    font-weight: 580;
-}
-
-.navbar {
-    background-color: #3097D1 !important;
-}
-
-.navbar .btn_toggler {
-    height: 31px;
-    padding: initial;
-    width: 46px;
-    margin-top: -4px;
-}
-
-.navbar .navbar-nav .active > .nav-link {
-    color: #ffffff;
-}
-
-.navbar .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
-}
-
+body{font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:1rem;font-weight:300;line-height:1.6;color:#292b2c;background-color: #efefef;color: #000;}
+html{font-size:14px;}
+h1, h2 span{color:#0487cc;}
+h2 {text-align: center; font-weight: 580;}
+.navbar{background-color:#3097D1 !important;}
+.navbar .btn_toggler{height:31px;padding:initial;width:46px;margin-top:-4px;}
+.navbar .navbar-nav .active > .nav-link{color:#ffffff;}
+.navbar .navbar-nav .nav-link{color:rgba(255, 255, 255, 0.5);}
 .navbar .navbar-nav .nav-link:focus,
-.navbar .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.profile {
-    padding-top: 1.5rem !important;
-    width: 1230px;
-    max-width: 100%;
-    margin: auto;
-}
-
-.d_profile {
-    padding: 0px;
-    margin: 0px;
-}
-
-.dt_profile {
-    padding-bottom: 10%;
-}
-
-.img_perfil {
-    max-width: 100px;
-    border-radius: 100%;
-    border: 3px solid #ffffff;
-    margin-top: -70px;
-}
-
-.fond_img {
-    width: 100%;
-    height: 150px;
-    background-image: url('../img/iceland.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.info_profile {
-    text-align: center;
-}
-
-.info_profile .nom_user .nom {
-    color: inherit;
-    text-decoration: inherit;
-    font-weight: 600;
-}
-
-.info_profile .ofic_user {
-    max-width: 95%;
-    margin: auto;
-    font-size: 14px;
-}
-
-.about {
-    margin-top: 6%;
-}
-
-.dt_about {
-    padding-top: 6%;
-    padding: 1.25rem;
-}
-
-.dt_about .list_profile {
-    list-style: none;
-    padding-left: 8px;
-}
-
-.list_profile li span {
-    margin-right: 4%;
-}
-
-.info_experience {
-    padding: 1.25rem;
-    padding-right: 4%;
-    padding-bottom: 8%;
-}
-
-.info_experience .head_exp {
-    border-bottom: 1px solid #ccc !important;
-}
-
-.info {
-    padding-top: 3%;
-}
-
-.info-profile .ul-info {
-    list-style: none;
-    padding-left: 0px;
-    margin-left: 0px;
-}
-
-.ul-info .li-info {
-    padding-bottom: 10px;
-}
-
-.ul-info .li-info .info {
-    color: inherit;
-    text-decoration: inherit;
-    font-weight: 600;
-}
-
-.ul-info .li-info .title-info {
-    display: inline-block;
-    width: 100px;
-}
-
-.socialLinks {
-    padding-top: 5%;
-}
-
-.socialLinks .social-links {
-    list-style: none;
-    padding-left: 0px;
-}
-
-.social-links .li-social-links {
-    margin-top: 2%;
-    font-size: 20px;
-    align-content: center;
-    text-align: center;
-    width: 8%;
-    float: left;
-    margin-right: 6%;
-}
-
-.bdr_solid {
-    background-color: #ffffff;
-    border-radius: 1%;
-    border: 1px solid #ccc !important;
-/*    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15),0 2px 10px 0 rgba(0,0,0,.11);*/
-}
-
-@media(max-width:400px) {
-    .info_experience {
-        margin-top: 6%;
-        padding-bottom: 14%;
-        margin-bottom: 5%;
-        height: auto;
-    }
-    .socialLinks {
-        margin-bottom: 2%;
-        margin-left: 1%;
-    }
-    .social-links .li-social-links {
-        margin-top: 2%;
-        font-size: 20px;
-        align-content: center;
-        text-align: center;
-        width: 16%;
-        float: left;
-        margin-right: 9%;
-    }
-}
-
-.interest {
-    margin-bottom: 3%;
-}
-.list_interes .ul_ite_interest {
-    list-style: none;
-    margin: auto;
-    text-align: center;
-    align-content: center;
-}
-
-.ul_ite_interest .item_interest {
-    float: left;
-    padding-left: 0px;
-    padding-top: 3%;
-    width: 14%;
-    height: 120px;
-    margin-right: 6%;
-    text-align: center;
-    color: #ffffff;
-    background-color: #0487cc;
-}
-
-.scroll-top {
-    display: none;
-    background-color: #fff;
-    position: fixed;
-    width: 45px;
-    height: 45px;
-    right: 45px;
-    bottom: 50px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 45px;
-    opacity: .7;
-    cursor: pointer;
-    z-index: 10;
-    transition: all .3s;
-}
-.head_{
-    margin-top: 45px;
-    margin-bottom: 55px;
-}
-.professional-skills{
-    width: 70%;
-    margin: auto;
-    padding-top: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 15px;
-}
-.title-skills{
-    text-align: center;
-    align-content: center;
-    background-color: #0487cc;
-    width: 40%;
-    position: inherit;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #ffffff;
-    margin: auto;
-    margin-top: -40px;
-    margin-bottom: 25px;
-}
-.skill{
-    margin-bottom: 13px;
-}
-.skill .title-progress{
-    font-weight: 599;
-    color: black;
-}
-.skill .title-progress .skill-value{
-    float: right;
-}
-.progress{
-    background-color: #757575;
-}
-.progress .progress-bar{
-    background-color: #0487cc;
-}
+.navbar .navbar-nav .nav-link:hover{color:rgba(255, 255, 255, 0.8);}
+.profile{padding-top:1.5rem !important;width:1230px;max-width:100%;margin:auto;}
+.d_profile{padding:0px;margin:0px;}
+.dt_profile{padding-bottom:10%;}
+.img_perfil{max-width:100px;border-radius:100%;border:3px solid #ffffff;margin-top:-70px;}
+.fond_img{width:100%;height:150px;background-image:url('../image/iceland.jpg');background-repeat:no-repeat;background-size:cover;}
+.info_profile{text-align:center;}
+.info_profile .nom_user .nom{color:inherit;text-decoration:inherit;font-weight:600;}
+.info_profile .ofic_user{max-width:95%;margin:auto;font-size:14px;}
+.about{margin-top:6%;}
+.dt_about{padding-top:6%;padding:1.25rem;}
+.dt_about .list_profile{list-style:none;padding-left:8px;}
+.list_profile li span{margin-right:4%;}
+.info_experience{padding:1.25rem;padding-right:4%;padding-bottom:8%;}
+.info_experience .head_exp{border-bottom:1px solid #ccc !important;}
+.info{padding-top:3%;}
+.info-profile .ul-info{list-style:none;padding-left:0px;margin-left:0px;}
+.ul-info .li-info{padding-bottom:10px;}
+.ul-info .li-info .info{color:inherit;text-decoration:inherit;font-weight:600;}
+.ul-info .li-info .title-info{display:inline-block;width:100px;}
+.socialLinks{padding-top:5%;}
+.socialLinks .social-links{list-style:none;padding-left:0px;}
+.social-links .li-social-links{margin-top:2%;font-size:20px;align-content:center;text-align:center;width:8%;float:left;margin-right:6%;}
+.bdr_solid{background-color:#ffffff;border-radius:1%;border:1px solid #ccc !important;}.interest{margin-bottom:3%;}.list_interes .ul_ite_interest{list-style: none;}
+.ul_ite_interest .item_interest{float: left;padding-left: 0px;padding-top: 3%;width: 14%;height: 120px;margin-right: 5%;text-align: center;color: #ffffff;background-color: #0487cc;}
+.scroll-top {display: none;background-color: #fff;position: fixed;width: 45px;height: 45px;right: 45px;bottom: 50px;border-radius: 50%;text-align: center;line-height: 45px;opacity: .7;cursor: pointer;z-index: 10;transition: all .3s;}
+.head_{margin-top: 45px;margin-bottom: 55px;}
+.professional-skills{width: 70%;margin: auto;padding-top: 15px;padding-left: 30px;padding-right: 30px;padding-bottom: 15px;}
+.title-skills{text-align: center;align-content: center;background-color: #0487cc;width: 40%;position: inherit;padding-top: 10px;padding-bottom: 10px;color: #ffffff;margin: auto;margin-top: -40px;margin-bottom: 25px;}
+.skill{margin-bottom: 13px;}
+.skill .title-progress{font-weight: 599;color: black;}
+.skill .title-progress .skill-value{float: right;}
+.progress{background-color: #757575;}
+.progress .progress-bar{background-color: #0487cc;}
+@media(max-width:400px) {.info_experience {margin-top: 6%;padding-bottom: 14%;margin-bottom: 5%;height: auto;}.socialLinks {margin-bottom: 2%;margin-left: 1%;}.social-links .li-social-links {margin-top: 2%;font-size: 20px;align-content: center;text-align: center;width: 16%;float: left;margin-right: 9%;}.professional-skills{min-width: 100%;}.title-skills {min-width: 70%;}.title-skills h5{font-size: 14px;}.ul_ite_interest{max-width: 100%;padding: 0px;margin: 0px;}.ul_ite_interest .item_interest{height: 65px;width: 78px;margin-bottom: 4px;margin-left: 3px;align-content: center;text-align: center;margin-right: 4px;}.item_interest h6{font-size: 12px;}}
