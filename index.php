@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Felix Hernandez Hernandez |</title>
         <link rel="icon" type="image/png" href="./image/home.png">
-
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-
         <link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
     </head>
-
     <body>
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
             <button class="navbar-toggler navbar-toggler-right btn_toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -286,7 +281,6 @@
                         scrollTop: '0px'
                     }, 1050);
                 });
-
                 $(window).scroll(function () {
                     if ($(this).scrollTop() > 0) {
                         $('.scroll-top').fadeIn(300);
@@ -295,7 +289,6 @@
                     }
                 });
                 //$('body').scrollspy({target: ".navbar", offset: 50});   
-
                 // Add smooth scrolling on all links inside the navbar
                 $(".nav-item a").on('click', function(event) {
                     if (this.hash !== "") {
