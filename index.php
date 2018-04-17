@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Felix Hernandez Hernandez |</title>
+        <title> USER NAME |</title>
         <link rel="icon" type="image/png" href="./image/home.png">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -103,7 +103,7 @@
                                 </li>
                                 <li class="li-info">
                                     <span class="title-info">Sitio web</span>
-                                    <span class="info">www.fHernandez.esy.es</span>
+                                    <span class="info">www.felixhernandez.esy.es</span>
                                 </li>
                                 <li class="li-info">
                                     <span class="title-info">Nacionalidad</span>
